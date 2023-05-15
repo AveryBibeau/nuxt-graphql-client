@@ -178,7 +178,7 @@ export default defineNuxtModule<GqlConfig>({
       }
 
       if (ctx.clientDocs) {
-        const clientDocs = !hmrDoc
+        const clientDocs: Record<string, any> = !hmrDoc
           ? ctx.clientDocs
           : Object.keys(ctx.clientDocs)
             .filter(k => ctx.clientDocs?.[k]?.some(e => e.endsWith(hmrDoc)))
