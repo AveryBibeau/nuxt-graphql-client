@@ -1,5 +1,0 @@
-query crew {
-  crew (filter: { name: "Douglas Hurley" }) {
-    name
-  }
-}
