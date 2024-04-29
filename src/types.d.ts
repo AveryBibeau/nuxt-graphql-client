@@ -196,6 +196,11 @@ export interface GqlCodegen {
    (https://the-guild.dev/graphql/codegen/plugins/typescript/typescript-operations#maybevalue)
    */
   maybeValue?: string
+
+  /**
+   * Control inlining of fragment types in generated queries
+   */
+  inlineFragmentTypes: 'inline' | 'combine' | 'mask'
 }
 
 export interface GqlConfig<T = GqlClient> {
