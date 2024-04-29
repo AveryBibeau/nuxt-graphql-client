@@ -1,0 +1,8 @@
+{
+  "name": "nuxt-graphql-client",
+  "version": "0.2.34",
+  "configKey": "graphql-client",
+  "compatibility": {
+    "nuxt": "^3.7.0"
+  }
+}
