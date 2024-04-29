@@ -1,6 +1,0 @@
-query ships {
-  ships {
-    id
-    name
-  }
-}

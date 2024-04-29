@@ -1,5 +1,0 @@
-query first_episode {
-    episode(id: "1") {
-        name
-    }
-}

@@ -1,8 +1,0 @@
-query getCharacters {
-  characters {
-    results {
-      name
-      status
-    }
-  }
-}
